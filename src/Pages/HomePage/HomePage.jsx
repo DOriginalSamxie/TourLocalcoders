@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../../components/Footer/Footer'
 import HeroSection from '../../components/HeroSection/HeroSection'
 import Newsletter from '../../components/Newsletter/Newsletter'
 import OurBlog from '../../components/OurBlog/OurBlog'
@@ -15,6 +16,7 @@ const HomePage = () => {
       <ReantalCars />
       <OurBlog />
       <Newsletter />
+      <Footer />
     </section>
   )
 }
