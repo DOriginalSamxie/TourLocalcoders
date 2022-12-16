@@ -1,5 +1,5 @@
 import React from 'react'
-import Newsimage from '../../assets/Newsletter/Newsletter.svg'
+import Newsimage from '../../assets/Newsletter/newss.png'
 
 const Newsletter = () => {
   return (
