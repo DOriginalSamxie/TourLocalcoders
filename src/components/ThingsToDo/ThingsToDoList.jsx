@@ -4,7 +4,7 @@ import ThingsToDoCard from './ThingsToDoCard'
 
 const ThingsToDoList = () => {
   return (
-    <div className=' container mx-auto grid lg:grid-cols-4 mt-[177px] gap-[31px] md:px-[150px]'>
+    <div className=' container mx-auto grid lg:grid-cols-4 mt-[50px] gap-[31px] md:px-[150px]'>
       {todo.map((item, index) => {
         const { image, text1 } = item
         return <ThingsToDoCard key={index} text1={text1} image={image} />

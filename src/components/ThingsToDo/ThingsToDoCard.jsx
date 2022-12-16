@@ -6,8 +6,8 @@ const ThingsToDoCard = ({ image, text1 }) => {
       <div className=' '>
         <img className='h-full w-full object-cover' src={image} alt='' />
       </div>
-      <div className='absolute flex flex-col items-center bottom-[63px] md:flex-row md:space-x-[91px] px-[26px] '>
-        <h2 className='text-[20px]leading-[24.8px] font-semibold text-[#fff]'>
+      <div className='absolute flex flex-col items-center bottom-[27px] md:flex-row  px-[26px] '>
+        <h2 className='text-[20px] leading-[24.8px] font-semibold text-[#fff]'>
           {text1}
         </h2>
       </div>
