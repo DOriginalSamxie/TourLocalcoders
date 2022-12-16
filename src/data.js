@@ -16,7 +16,6 @@ import Rental2 from '../src/assets/RentalsCar/Rental Cars 2.svg'
 import Rental3 from '../src/assets/RentalsCar/Rental Cars 3.svg'
 import Rental4 from '../src/assets/RentalsCar/Rental Cars 4.svg'
 import Rental5 from '../src/assets/RentalsCar/Rental Cars 5.svg'
-import Rental6 from '../src/assets/RentalsCar/Rental Cars 6.svg'
 
 // Import Our Blog images
 import Blog1 from '../src/assets/OurBlog/Our Blog 1.svg'
@@ -139,7 +138,7 @@ export const rental = [
       'The ultimate road trip vehicles. Experiencing Iceland behind the wheel of a 4x4 rental car is an experience unlike any other.',
   },
   {
-    image: Rental6,
+    image: Rental3,
     text1: 'Luxury cars',
     paragraph:
       'The ultimate road trip vehicles. Experiencing Iceland behind the wheel of a 4x4 rental car is an experience unlike any other.',
