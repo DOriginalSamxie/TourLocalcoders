@@ -1,5 +1,6 @@
 import React from 'react'
 import HeroSection from '../../components/HeroSection/HeroSection'
+import Newsletter from '../../components/Newsletter/Newsletter'
 import OurBlog from '../../components/OurBlog/OurBlog'
 import PopularTours from '../../components/PopularTours/PopularTours'
 import ReantalCars from '../../components/Rentalcars/ReantalCars'
@@ -13,6 +14,7 @@ const HomePage = () => {
       <ThingsToDo />
       <ReantalCars />
       <OurBlog />
+      <Newsletter />
     </section>
   )
 }
