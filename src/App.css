@@ -1,6 +1,65 @@
-body {
+*,
+::before,
+::after {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  background: red;
+}
+
+.bloc-tabs {
+  display: flex;
+}
+.tabs {
+  cursor: pointer;
+
+  box-sizing: content-box;
+  position: relative;
+  outline: none;
+}
+.tabs:not(:last-child) {
+  border-right: 1px solid rgba(0, 0, 0, 0.274);
+}
+
+.active-tabs {
+  color: white;
+}
+
+.active-tabs::before {
+  content: '';
+  display: block;
+  position: absolute;
+  z-index: 100;
+  top: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% + 2px);
+}
+
+button {
+  border: none;
+}
+.content-tabs {
+  flex-grow: 1;
+}
+.content {
+  background: #097882;
+
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.content h2 {
+}
+.content hr {
+  width: 100px;
+  height: 2px;
+  background: #222;
+  margin-bottom: 5px;
+}
+.content p {
+  width: 100%;
+  height: 100%;
+}
+.active-content {
+  display: block;
 }

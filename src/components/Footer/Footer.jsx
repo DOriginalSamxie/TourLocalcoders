@@ -6,9 +6,9 @@ import Youtube from '../../assets/SocialMedia/Youtube.svg'
 
 const Footer = () => {
   return (
-    <footer className=' container mx-auto bg-[#F0F4FA]'>
-      <div className='flex flex-col md:flex-row justify-between'>
-        <div className='grid grid-cols-2 md:grid-cols-3 px-[20px] md:px-[150px] mt-[153px] gap-[25px] items-center justify-center'>
+    <footer className=' container mx-auto bg-[#F0F4FA] max-w-full'>
+      <div className='flex flex-col md:flex-row gap-[200px] pb-[115px]'>
+        <div className='grid grid-cols-2 md:grid-cols-3  md:px-[150px] mt-[153px] gap-[10px] items-center justify-center'>
           <div className='font-body text-[#5B6780] space-y-[15px] '>
             <p>
               <a href='about-us'>About us</a>
@@ -43,8 +43,32 @@ const Footer = () => {
             </p>
           </div>
         </div>
-        <div className='mt-[259px]'>
-          <div className='flex gap-3'>
+        <div className='mt-[86px]'>
+          <div className='pb-[28px]'>
+            <select
+              className='pl-[30px] pr-[165px] py-[20px] font-body text-[15px] leading-[18.38px] text-[#99a0ad] pb-[28px]'
+              name='currency'
+              id='currency-select'
+            >
+              <option value='Dollar'>ENGLISH</option>
+              <option value='British Pound'>PORTUGESE</option>
+              <option value='Japansese'>SPANISH</option>
+              <option value='hamster'>Naira</option>
+            </select>
+          </div>
+          <div className='pb-[49px]'>
+            <select
+              className='pl-[30px] pr-[215px] py-[20px] font-body text-[15px] leading-[18.38px] text-[#99a0ad]'
+              name='currency'
+              id='currency-select'
+            >
+              <option value='Dollar'>USD</option>
+              <option value='British Pound'>JPY</option>
+              <option value='Japansese'>GBP</option>
+              <option value='hamster'>CNY</option>
+            </select>
+          </div>
+          <div className='flex gap-[13px]'>
             <img src={TripAdvisor} alt='' />
             <img src={Youtube} alt='' />
             <img src={Instagram} alt='' />

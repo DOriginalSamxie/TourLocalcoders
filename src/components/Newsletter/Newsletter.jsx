@@ -3,9 +3,9 @@ import Newsimage from '../../assets/Newsletter/newss.png'
 
 const Newsletter = () => {
   return (
-    <div className='container mx-auto relative'>
+    <div className='container mx-auto relative max-w-full '>
       <div className='mt-[133px] '>
-        <img src={Newsimage} alt='' />
+        <img src={Newsimage} alt='' className='w-full' />
       </div>
       <div className='absolute  flex flex-col items-center justify-center md:top-[227px] md:left-[550px]'>
         <h1 className='font-body text-[45px] leading-[55px] text-[#FFF] shadow-md font-normal'>
