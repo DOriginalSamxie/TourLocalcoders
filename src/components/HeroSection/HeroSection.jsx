@@ -23,9 +23,10 @@ const HeroSection = () => {
           <div>
             <ul className='flex items-center text-[12px] md:px-[95px] px-[10px]  '>
               <li
-                className={`font-body px-[30px] md:px-[77px] py-[20px] bg-[#FFFFFF] text-[#A6A6A6] font-normal transition-all duration-300 ${
+                className={`font-body px-[30px] md:px-[68px] py-[20px] bg-[#FFFFFF] text-[#A6A6A6] font-normal transition-all duration-[2000ms] ${
                   toggleState === 1 ? 'bg-[#097882] ' : 'tabs'
                 }`}
+                onClick={() => toggleTab(1)}
               >
                 <button
                   className={toggleState === 1 ? 'tabs active-tabs' : 'tabs'}
@@ -35,21 +36,24 @@ const HeroSection = () => {
                 </button>
               </li>
               <li
-                className={`font-body px-[40px] md:px-[69px] py-[20px] bg-[#FFFFFF] text-[#A6A6A6] font-normal transition-all duration-300 ${
+                className={`font-body  md:px-[60px]  bg-[#FFFFFF] text-[#A6A6A6] font-normal transition-all duration-[2000ms] ${
                   toggleState === 2 ? 'bg-[#097882]' : 'tabs'
                 }`}
+                onClick={() => toggleTab(2)}
               >
                 <button
-                  className={toggleState === 2 ? 'tabs active-tabs' : 'tabs'}
-                  onClick={() => toggleTab(2)}
+                  className={` px-[20px] py-[20px] ${
+                    toggleState === 2 ? 'tabs active-tabs' : 'tabs'
+                  }`}
                 >
                   RENT
                 </button>
               </li>
               <li
-                className={`font-body px-[40px] md:px-[53px] py-[20px] bg-[#FFFFFF] text-[#A6A6A6] font-normal transition-all duration-300 ${
+                className={`font-body px-[40px] md:px-[53px] py-[20px] bg-[#FFFFFF] text-[#A6A6A6] font-normal transition-all duration-[2000ms] ${
                   toggleState === 3 ? 'bg-[#097882]' : 'tabs'
                 }`}
+                onClick={() => toggleTab(3)}
               >
                 <button
                   className={toggleState === 3 ? 'tabs active-tabs' : 'tabs'}
