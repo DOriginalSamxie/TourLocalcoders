@@ -7,9 +7,9 @@ import Youtube from '../../assets/SocialMedia/Youtube.svg'
 const Footer = () => {
   return (
     <footer className=' container mx-auto bg-[#F0F4FA] max-w-full'>
-      <div className='flex flex-col md:flex-row gap-[200px] pb-[115px]'>
-        <div className='grid grid-cols-2 md:grid-cols-3  md:px-[150px] mt-[153px] gap-[10px] items-center justify-center'>
-          <div className='font-body text-[#5B6780] space-y-[15px] '>
+      <div className='flex flex-col md:flex-row md:gap-[200px] md:pb-[115px]'>
+        <div className='grid grid-cols-2 md:grid-cols-3  md:px-[150px] md:mt-[153px] mt-[72px] gap-[10px] items-center justify-center'>
+          <div className='font-body text-[#5B6780] space-y-[15px] px-[15px]'>
             <p>
               <a href='about-us'>About us</a>
             </p>
@@ -20,7 +20,7 @@ const Footer = () => {
               <a href='info'>info@iniceland.is</a>
             </p>
           </div>
-          <div className='font-body text-[#5B6780] space-y-[15px]'>
+          <div className='font-body text-[#5B6780] space-y-[15px] px-[15px]'>
             <p>
               <a href='about-us'>Cancellation policy</a>
             </p>
@@ -31,7 +31,7 @@ const Footer = () => {
               <a href='info'>+354 440 4000</a>
             </p>
           </div>
-          <div className='font-body text-[#5B6780] space-y-[15px]'>
+          <div className='font-body text-[#5B6780] space-y-[15px] px-[25px]'>
             <p>
               <a href='about-us'>Terms and conditions</a>
             </p>
@@ -43,8 +43,8 @@ const Footer = () => {
             </p>
           </div>
         </div>
-        <div className='mt-[86px]'>
-          <div className='pb-[28px]'>
+        <div className='md:mt-[86px] mt-[56px]'>
+          <div className='pb-[28px] px-[40px]'>
             <select
               className='pl-[30px] pr-[165px] py-[20px] font-body text-[15px] leading-[18.38px] text-[#99a0ad] pb-[28px]'
               name='currency'
@@ -56,7 +56,7 @@ const Footer = () => {
               <option value='hamster'>Naira</option>
             </select>
           </div>
-          <div className='pb-[49px]'>
+          <div className='pb-[49px] px-[40px]'>
             <select
               className='pl-[30px] pr-[215px] py-[20px] font-body text-[15px] leading-[18.38px] text-[#99a0ad]'
               name='currency'
@@ -68,7 +68,7 @@ const Footer = () => {
               <option value='hamster'>CNY</option>
             </select>
           </div>
-          <div className='flex gap-[13px]'>
+          <div className='flex gap-[13px] px-[40px]'>
             <img src={TripAdvisor} alt='' />
             <img src={Youtube} alt='' />
             <img src={Instagram} alt='' />

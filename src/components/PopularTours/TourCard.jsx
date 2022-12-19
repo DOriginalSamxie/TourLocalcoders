@@ -4,7 +4,7 @@ import ExtraInfo from '../../assets/tour/Extra info.svg'
 const TourCard = ({ image, text1, text2 }) => {
   return (
     <div className='relative items-center justify-center overflow-hidden cursor-pointer'>
-      <div className='max-h-[416px] max-w-[346px]'>
+      <div className='max-h-[416px] max-w-full'>
         <img className='h-full w-full object-cover' src={image} alt='' />
       </div>
       <div className='absolute flex flex-col items-center bottom-[63px] md:flex-row gap-[51px] px-[26px] '>

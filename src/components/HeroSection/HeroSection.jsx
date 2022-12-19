@@ -21,9 +21,9 @@ const HeroSection = () => {
             <span className='text-[#097882] font-bold'>in Iceland</span>
           </h1>
           <div>
-            <ul className='flex items-center text-[12px] md:px-[95px]  '>
+            <ul className='flex items-center text-[12px] md:px-[95px] px-[10px]  '>
               <li
-                className={`font-body px-[77px] py-[20px] bg-[#FFFFFF] text-[#A6A6A6] font-normal transition-all duration-300 ${
+                className={`font-body px-[30px] md:px-[77px] py-[20px] bg-[#FFFFFF] text-[#A6A6A6] font-normal transition-all duration-300 ${
                   toggleState === 1 ? 'bg-[#097882] ' : 'tabs'
                 }`}
               >
@@ -35,7 +35,7 @@ const HeroSection = () => {
                 </button>
               </li>
               <li
-                className={`font-body px-[69px] py-[20px] bg-[#FFFFFF] text-[#A6A6A6] font-normal transition-all duration-300 ${
+                className={`font-body px-[40px] md:px-[69px] py-[20px] bg-[#FFFFFF] text-[#A6A6A6] font-normal transition-all duration-300 ${
                   toggleState === 2 ? 'bg-[#097882]' : 'tabs'
                 }`}
               >
@@ -47,7 +47,7 @@ const HeroSection = () => {
                 </button>
               </li>
               <li
-                className={`font-body px-[53px] py-[20px] bg-[#FFFFFF] text-[#A6A6A6] font-normal transition-all duration-300 ${
+                className={`font-body px-[40px] md:px-[53px] py-[20px] bg-[#FFFFFF] text-[#A6A6A6] font-normal transition-all duration-300 ${
                   toggleState === 3 ? 'bg-[#097882]' : 'tabs'
                 }`}
               >
@@ -66,30 +66,30 @@ const HeroSection = () => {
                 toggleState === 1 ? 'content  active-content' : 'content'
               }
             >
-              <div className='px-[95px]  '>
-                <div className='bg-[#F9FBFF] w-[535px]   '>
-                  <ul className='flex items-center gap-[400px] '>
+              <div className='md:px-[95px] px-0  '>
+                <div className='bg-[#F9FBFF] md:w-[535px]   '>
+                  <ul className='flex items-center md:gap-[400px] gap-[250px] '>
                     <li className='p-[19px] text-[#99A0AD] font-body leading-[14px] text-[13px] '>
                       ARRIVAL
                     </li>
                     <MdOutlineKeyboardArrowDown className='w-[21px] h-[21px] ' />
                   </ul>
-                  <div class='border-t-[1px]  border-[#E1E3E9] mx-auto  container max-w-[535px]'></div>
-                  <ul className='flex items-center gap-[380px]  '>
+                  <div class='border-t-[1px]  border-[#E1E3E9] mx-auto  container md:max-w-[535px]'></div>
+                  <ul className='flex items-center md:gap-[380px]  gap-[230px] '>
                     <li className='p-[19px] text-[#99A0AD] font-body leading-[14px] text-[13px] '>
                       DEPARTURE
                     </li>
                     <MdOutlineKeyboardArrowDown className='w-[21px] h-[21px] ' />
                   </ul>
                   <div class='border-t-[1px]  border-[#E1E3E9] mx-auto  container max-w-[535px]'></div>
-                  <ul className='flex items-center gap-[370px]  '>
+                  <ul className='flex items-center md:gap-[370px]  gap-[220px]  '>
                     <li className='p-[19px] text-[#99A0AD] font-body leading-[14px] text-[13px] '>
                       PASSENGERS
                     </li>
                     <MdOutlineKeyboardArrowDown className='w-[21px] h-[21px] ' />
                   </ul>
                   <div class='border-t-[1px]  border-[#E1E3E9] mx-auto  container max-w-[535px]'></div>
-                  <ul className='flex items-center gap-[370px] '>
+                  <ul className='flex items-center md:gap-[370px]  gap-[220px] '>
                     <li className='p-[19px] text-[#99A0AD] font-body leading-[14px] text-[13px] '>
                       CATEGORIES
                     </li>
@@ -97,7 +97,7 @@ const HeroSection = () => {
                   </ul>
                   <div class='border-t-[1px]  border-[#E1E3E9] mx-auto  container max-w-[535px]'></div>
                 </div>
-                <div className='px-[265px] py-[19px] bg-gradient-to-r from-[#FFAF65]/100 to-[#CC8129]/100 '>
+                <div className='md:px-[265px] px-0 py-[19px] bg-gradient-to-r from-[#FFAF65]/100 to-[#CC8129]/100 '>
                   <button className='flex items-center justify-center mx-auto text-[#fff]'>
                     SEARCH
                   </button>
@@ -109,30 +109,30 @@ const HeroSection = () => {
                 toggleState === 2 ? 'content  active-content' : 'content'
               }
             >
-              <div className='px-[95px]'>
-                <div className='bg-[#F9FBFF] w-[535px]'>
-                  <ul className='flex items-center gap-[400px] '>
+              <div className='md:px-[95px] px-0'>
+                <div className='bg-[#F9FBFF] md:w-[535px]'>
+                  <ul className='flex items-center md:gap-[400px] gap-[250px]'>
                     <li className='p-[19px] text-[#99A0AD] font-body leading-[14px] text-[13px] '>
                       ARRIVAL
                     </li>
                     <MdOutlineKeyboardArrowDown className='w-[21px] h-[21px] ' />
                   </ul>
                   <div class='border-t-[1px]  border-[#E1E3E9] mx-auto  container max-w-[535px]'></div>
-                  <ul className='flex items-center gap-[380px]  '>
+                  <ul className='flex items-center md:gap-[380px] gap-[230px] '>
                     <li className='p-[19px] text-[#99A0AD] font-body leading-[14px] text-[13px] '>
                       DEPARTURE
                     </li>
                     <MdOutlineKeyboardArrowDown className='w-[21px] h-[21px] ' />
                   </ul>
                   <div class='border-t-[1px]  border-[#E1E3E9] mx-auto  container max-w-[535px]'></div>
-                  <ul className='flex items-center gap-[400px]  '>
+                  <ul className='flex items-center md:gap-[400px] gap-[250px]  '>
                     <li className='p-[19px] text-[#99A0AD] font-body leading-[14px] text-[13px] '>
                       PICK UP
                     </li>
                     <MdOutlineKeyboardArrowDown className='w-[21px] h-[21px] ' />
                   </ul>
                   <div class='border-t-[1px]  border-[#E1E3E9] mx-auto  container max-w-[535px]'></div>
-                  <ul className='flex items-center gap-[385px] '>
+                  <ul className='flex items-center md:gap-[385px] gap-[235px] '>
                     <li className='p-[19px] text-[#99A0AD] font-body leading-[14px] text-[13px] '>
                       DROP OFF
                     </li>
@@ -140,8 +140,8 @@ const HeroSection = () => {
                   </ul>
                   <div class='border-t-[1px]  border-[#E1E3E9] mx-auto  container max-w-[535px]'></div>
                 </div>
-                <div className='px-[265px] py-[19px] bg-gradient-to-r from-[#FFAF65]/100 to-[#CC8129]/100 '>
-                  <button className='flex items-center justify-center mx-auto text-[#fff]'>
+                <div className='md:px-[265px] px-0  py-[19px] bg-gradient-to-r from-[#FFAF65]/100 to-[#CC8129]/100 '>
+                  <button className='flex items-center justify-center  mx-auto text-[#fff]'>
                     SEARCH
                   </button>
                 </div>
@@ -152,30 +152,30 @@ const HeroSection = () => {
                 toggleState === 3 ? 'content  active-content' : 'content'
               }
             >
-              <div className='px-[95px]'>
-                <div className='bg-[#F9FBFF] w-[535px]'>
-                  <ul className='flex items-center gap-[400px] '>
+              <div className='md:px-[95px] px-0'>
+                <div className='bg-[#F9FBFF] md:w-[535px]'>
+                  <ul className='flex items-center md:gap-[400px] gap-[250px] '>
                     <li className='p-[19px] text-[#99A0AD] font-body leading-[14px] text-[13px] '>
                       ARRIVAL
                     </li>
                     <MdOutlineKeyboardArrowDown className='w-[21px] h-[21px] ' />
                   </ul>
                   <div class='border-t-[1px]  border-[#E1E3E9] mx-auto  container max-w-[535px]'></div>
-                  <ul className='flex items-center gap-[380px]  '>
+                  <ul className='flex items-center md:gap-[380px] gap-[230px]  '>
                     <li className='p-[19px] text-[#99A0AD] font-body leading-[14px] text-[13px] '>
                       DEPARTURE
                     </li>
                     <MdOutlineKeyboardArrowDown className='w-[21px] h-[21px] ' />
                   </ul>
                   <div class='border-t-[1px]  border-[#E1E3E9] mx-auto  container max-w-[535px]'></div>
-                  <ul className='flex items-center gap-[375px]  '>
+                  <ul className='flex items-center md:gap-[375px] gap-[225px]  '>
                     <li className='p-[19px] text-[#99A0AD] font-body leading-[14px] text-[13px] '>
                       PICKUP TIME
                     </li>
                     <MdOutlineKeyboardArrowDown className='w-[21px] h-[21px] ' />
                   </ul>
                   <div class='border-t-[1px]  border-[#E1E3E9] mx-auto  container max-w-[535px]'></div>
-                  <ul className='flex items-center gap-[350px] '>
+                  <ul className='flex items-center md:gap-[350px] gap-[200px] '>
                     <li className='p-[19px] text-[#99A0AD] font-body leading-[14px] text-[13px] '>
                       DEPARTURE TIME
                     </li>
@@ -183,7 +183,7 @@ const HeroSection = () => {
                   </ul>
                   <div class='border-t-[1px]  border-[#E1E3E9] mx-auto  container max-w-[535px]'></div>
                 </div>
-                <div className='px-[265px] py-[19px] bg-gradient-to-r from-[#FFAF65]/100 to-[#CC8129]/100 '>
+                <div className='md:px-[265px] px-0 py-[19px] bg-gradient-to-r from-[#FFAF65]/100 to-[#CC8129]/100 '>
                   <button className='flex items-center justify-center mx-auto text-[#fff]'>
                     SEARCH
                   </button>
