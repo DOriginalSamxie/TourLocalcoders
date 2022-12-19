@@ -24,7 +24,7 @@ const NavMobile = () => {
       <ul
         className={`${
           isOpen ? 'right-0' : '-right-full'
-        } bg-[#F3F6FA] fixed top-0 w-full h-screen text-[#097882] transition-all flex fex-col justify-center items-center space-y-8 text-lg`}
+        } bg-[#F3F6FA] fixed top-0 w-full h-screen text-[#097882] transition-all flex flex-col justify-center items-center space-y-8 text-lg`}
       >
         <button
           onClick={() => {
