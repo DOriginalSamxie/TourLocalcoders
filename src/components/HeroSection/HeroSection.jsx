@@ -14,7 +14,7 @@ const HeroSection = () => {
 
   return (
     <div className='container mx-auto mt-[159px]  bg-gradient-to-b from-[#F3F6FA] to-[#fff]/100  '>
-      <div className='grid md:grid-cols-2 gap-[12px] '>
+      <div className='grid md:grid-cols-1 lg:grid-cols-2 gap-[12px] overflow-hidden'>
         <div className='pb-[29px]  '>
           <h1 className='md:px-[95px] text-[40px] pb-[41px] leading-[49px] font-body font-medium text-[#252525]'>
             Your adventure <br />

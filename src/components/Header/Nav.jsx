@@ -4,7 +4,7 @@ import Cart from '../../assets/Header/cart.svg'
 const Nav = () => {
   return (
     <nav className='hidden lg:flex lg:flex-col'>
-      <div className='flex items-center flex-end pl-[1057px] py-[27px] cursor-pointer gap-[25px] font-body text-[11px] leading-[13px text-[#535968]'>
+      <div className='flex items-center flex-end lg:pl-[1057px] py-[27px] cursor-pointer gap-[25px] font-body text-[11px] leading-[13px] text-[#535968]'>
         <select name='currency' id='currency-select'>
           <option value='Dollar'>USD</option>
           <option value='British Pound'>GBP</option>

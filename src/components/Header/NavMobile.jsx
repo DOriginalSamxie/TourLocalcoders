@@ -14,7 +14,7 @@ const NavMobile = () => {
         </h1>
       </div>
 
-      <div className='flex gap-[15px] justify-end'>
+      <div className='flex gap-[15px] '>
         <img src={User} alt='' />
         <img src={Search} alt='' />
         <button onClick={() => setIsOpen(true)}>
